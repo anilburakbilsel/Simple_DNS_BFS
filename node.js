@@ -19,11 +19,8 @@ export default class Node {
     remove(data) {
         this.children = this.children.filter(child => child.data !== data);
     }
+
+    mytest() {
+        console.log("anil siktir");
+    }
 }
-console.log("anil");
-let myNode = new Node(5);
-myNode.add(50);
-myNode.add(40);
-myNode.remove(50);
-myNode.remove(40);
-console.log(myNode.children[0].data);
