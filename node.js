@@ -12,7 +12,7 @@ export default class Node {
             this.children.push(new Node(data));
         }
         else {
-            console.log("sorry, this valu exists")
+            console.log("sorry, this value exists")
         }
     }
 
@@ -21,6 +21,6 @@ export default class Node {
     }
 
     mytest() {
-        console.log("anil siktir");
+        console.log("that's a test");
     }
 }
