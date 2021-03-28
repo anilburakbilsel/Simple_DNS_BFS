@@ -1,4 +1,8 @@
-
+import {
+    reallyReallyLongModuleExportName as shortName,
+    anotherLongModuleName as short
+  } from '/modules/my-module.js';
+  
 import Node from './node'; 
 
 class Tree {
