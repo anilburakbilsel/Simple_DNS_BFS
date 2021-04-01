@@ -1,4 +1,4 @@
-class Node {
+export default class Node {
     
     constructor(data) {
         this.data = data;
@@ -24,22 +24,3 @@ class Node {
         console.log("that's a test");
     }
 }
-
-
-class User {
-    constructor(name, age, email) {
-      this.name = name;
-      this.age = age;
-      this.email = email;
-    }
-  
-    getUserStats() {
-      return `
-        Name: ${this.name}
-        Age: ${this.age}
-        Email: ${this.email}
-      `;
-    }
-  }
-
-  module.exports = Node;
