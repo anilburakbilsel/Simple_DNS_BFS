@@ -1,0 +1,20 @@
+{
+  "name": "simple_dns_bfs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "a simple tree implementation of bfs and dns ",
+  "main": "tree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilburakbilsel/Simple_DNS_BFS.git"
+  },
+  "author": "anil burak bilsel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilburakbilsel/Simple_DNS_BFS/issues"
+  },
+  "homepage": "https://github.com/anilburakbilsel/Simple_DNS_BFS#readme"
+}
