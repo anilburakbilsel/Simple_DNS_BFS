@@ -7,9 +7,25 @@ export default class Node {
     }
 
     // in this simple case, lets limit the number of occurances
-    add(data) {
-        if (!this.children.includes(data)) {
-            this.children.push(new Node(data));
+    add(value) {
+        if (!this.children.includes(value)) {
+            if (value < this.data) {
+                if (this.left == null) {
+                    this.left = new Node(value);
+                }
+                else {
+                    this.left.add(value);
+                }
+            }
+            else {
+                if (this.right == null) {
+                    this.right = new Node(value);
+                }
+                else {
+                    this.right.add(value);
+                }
+            }
+            this.children.push(new Node(valie));
         }
         else {
             console.log("sorry, this value exists")
