@@ -18,4 +18,4 @@ Access, deletion, search and insertion are O(log n) as long as the tree is balan
 
 Trees are very useful for exposing the recursive structure of natural language and computer programs.
 
-(in some cases, it is useful to have trees in which nodes can refer their parents - maybe you can think of it as a doubly-linked list.)
+(Please keep in mind that in some cases, it is useful to have trees in which nodes can refer their parents - maybe you can think of it as a doubly-linked list)
